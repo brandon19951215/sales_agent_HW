@@ -1,4 +1,8 @@
-# Sales Agent Infrastructure Assignment
+# sales_agent_HW
+
+Testing for setting up a GitHub repository for an agent.
+
+Sales Agent Infrastructure Assignment: FastAPI, frontend, MCP, and Docker.
 
 Expose the existing LangGraph sales agent through FastAPI, add a simple
 frontend, deploy the services with Docker, and test the complete flow.
