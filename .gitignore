@@ -1,0 +1,37 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebook sources and outputs may contain credentials
+*.ipynb
+.ipynb_checkpoints/
+
+# Frontend dependencies and generated files
+node_modules/
+dist/
+coverage/
+
+# Editor and operating system files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+*.log
+
+# Temporary local preview capture (test evidence is kept in tests/evidence)
+/frontend-preview.png
